@@ -431,7 +431,7 @@ const OSColumn = ({ seat }) => (
 export default function App() {
   const [view, setView] = useState("org");
   const giulia = get("giulia");
-  const tier1  = ["flora", "andrea", "stephanie", "sofiia"].map(get);
+  const tier1  = ["flora", "andrea", "stephanie", "sofiia", "melanie"].map(get);
 
   return (
     <>
