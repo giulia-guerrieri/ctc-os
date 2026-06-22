@@ -81,7 +81,7 @@ const SEATS = {
       { name: "Weekly Sales & Marketing Summary", desc: "Growth · every Monday",       tag: "RITUAL", url: "#" },
       { name: "End of Week Report",               desc: "Company-wide · every Friday", tag: "SHARED", url: "#" },
     ],
-    direct_reports: ["angelina", "sweta"],
+    direct_reports: ["sweta"],
   },
   andrea: {
     id: "andrea", name: "Andrea Kauenhowen", role: "Senior Client Success Manager",
@@ -135,13 +135,6 @@ const SEATS = {
       { name: "Tech & AI Build Report", desc: "Systems · weekly",            tag: "RITUAL", url: "#" },
       { name: "End of Week Report",     desc: "Company-wide · every Friday", tag: "SHARED", url: "#" },
     ],
-    direct_reports: [],
-  },
-  angelina: {
-    id: "angelina", name: "Angelina Rocchio", role: "Sales Closer",
-    initials: "AR", color: B.burntUmber, photo: PHOTO("Angelina.png"),
-    systems: [], aiAgents: [],
-    reports: [{ name: "End of Week Report", desc: "Company-wide · every Friday", tag: "SHARED", url: "#" }],
     direct_reports: [],
   },
   sweta: {
